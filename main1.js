@@ -18,7 +18,7 @@ $.get(
   function (data, status) {
     quote = data.quote;
     author = data.author;
-    console.log(quote, author);
+    // console.log(quote, author);
     change(quote, author);
   }
 );

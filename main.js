@@ -9,7 +9,7 @@ $.get(
       quotes1.push(data[i].quote);
       author.push(data[i].author);
     }
-    console.log(quotes1, author);
+    // console.log(quotes1, author);
     change(quotes1, author);
   }
 );
