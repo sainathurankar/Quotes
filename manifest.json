@@ -4,7 +4,7 @@
   "display": "standalone",
   "name": "Quote of the day",
   "orientation": "any",
-  "scope": "/Quotes",
+  "scope": "/",
   "short_name": "Quotes",
   "start_url": ".",
   "theme_color": "#ffffff",
