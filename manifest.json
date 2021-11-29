@@ -6,7 +6,7 @@
   "orientation": "any",
   "scope": "/Quotes",
   "short_name": "Quotes",
-  "start_url": "/Quotes",
+  "start_url": ".",
   "theme_color": "#ffffff",
   "icons": [
     {
