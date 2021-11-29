@@ -1,3 +1,3 @@
 # Quotes
 A progressive web app
-https://github.com/sainathurankar/Quotes
+https://sainathurankar.github.io/Quotes/
