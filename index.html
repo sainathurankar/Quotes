@@ -38,14 +38,19 @@
             <div class="container">
                 <h1 id="title"><em>Quote of The Day</em></h1>
                 <br>
+                    <div class="loader">
+                        <img src="./images/loader.gif" style="max-width:50px">
+                    </div>
 
-
-                <div class="well well-sm">
+                <div id="quoteDisp" style="display:hidden">
+                    <div class="well well-sm">
                     <dl>
                         <dt id="quote"></dt>
                         <dd id="author"></dd>
                     </dl>
                 </div>
+            </div>
+                
 
                 <button style="margin-top: 50px;" id="quotebutton" type="button" class="btn btn-default btn-md"
                     onclick="window.location.href='/Quotes/quotes.html'">Quote List</button>
