@@ -28,15 +28,17 @@
             <div class="container">
                 <h1 id="title"><em>Motivational Quotes</em></h1>
                 <br>
-
-
-                <div class="well well-sm">
+                <div class="loader">
+                    <img src="./images/loader.gif" style="max-width:50px">
+                </div>
+                
+                <div id="quoteDisp" style="display:hidden" class="well well-sm">
                     <dl>
                         <dt id="quote"></dt>
                         <dd id="author"></dd>
                     </dl>
                 </div>
-
+                
                 <button style="margin-top: 50px; " id="quotebutton" type="button" class="btn btn-default btn-md"
                     onclick="update()">Next</button>
 
