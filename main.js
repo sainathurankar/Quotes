@@ -10,6 +10,8 @@ $.get(
       author.push(data[i].author);
     }
     // console.log(quotes1, author);
+    $(".loader").css("visibility", "hidden");
+    $("#quoteDisp").css("visibility", "visible");
     change(quotes1, author);
   }
 );
