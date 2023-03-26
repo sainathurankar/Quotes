@@ -14,7 +14,7 @@ function change(quote, author) {
 }
 
 $(document).ready(function () {
-$.get("https://quotes-wuls.onrender.com/quotes", function (data, status) {
+$.get("https://api.goprogram.ai/inspiration", function (data, status) {
   quote = data.quote;
   author = data.author;
   // console.log(quote, author);
