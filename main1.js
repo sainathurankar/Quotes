@@ -14,14 +14,11 @@ function change(quote, author) {
 }
 
 $(document).ready(function () {
-$.get(
-  "https://school-buddy-backend-server.herokuapp.com/api/test/qod",
-  function (data, status) {
-    quote = data.quote;
-    author = data.author;
-    // console.log(quote, author);
-    change(quote, author);
-  }
-);
+$.get("https://quotes-wuls.onrender.com/quotes", function (data, status) {
+  quote = data.quote;
+  author = data.author;
+  // console.log(quote, author);
+  change(quote, author);
+});
 
 });
